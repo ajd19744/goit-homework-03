@@ -44,9 +44,9 @@ body {
   text-decoration: none;
 }
 .container {
-  width: 1152px;
-  padding-left: 12px;
-  padding-right: 12px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid #fc0000;
 }
@@ -97,19 +97,22 @@ body {
 /** ===========hero=========== */
 
 .hero {
+  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--main-color-text-background, #2e2f42);
 }
 .hero-title {
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
+
   letter-spacing: 0.02em;
   color: var(--background-and-hero-text, #ffffff);
 }
 .hero-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -129,10 +132,11 @@ body {
 /** ===========advantages=========== */
 
 .advantages {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-title-down {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -151,6 +155,7 @@ body {
   padding-bottom: 120px;
 }
 .doing-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -167,6 +172,7 @@ body {
   background: var(--background-and-text-footer, #f4f4fd);
 }
 .team-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -178,6 +184,7 @@ body {
   background: var(--background-and-hero-text, #ffffff);
 }
 .team-title-down {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -191,6 +198,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+.team-title-text {
+  margin: 32px 16px;
+}
 
 /** ===========footer=========== */
 
@@ -203,6 +213,7 @@ body {
   color: var(--background-and-text-footer, #f4f4fd);
 }
 .footer-text {
+  margin-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -216,6 +227,9 @@ body {
   padding-bottom: 120px;
 }
 .filters-list button {
+  border: 1px solid #e7e9fc;
+  padding: 12px 24px;
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -235,7 +249,11 @@ body {
 
 /** ===========section row=========== */
 
+.row-list {
+  margin-top: 72px;
+}
 .row-title-down {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
