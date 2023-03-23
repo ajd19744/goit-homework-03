@@ -332,6 +332,7 @@ body {
   width: calc((100% - 48px) / 3);
   margin-left: 24px;
   margin-bottom: 48px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .row-item:nth-child(3n + 1) {
   margin-left: 0;
