@@ -47,28 +47,25 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   /* outline: 2px solid tomato; */
 }
 
 /** ==========header========= */
 
-/* .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-} */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
   display: flex;
   align-items: center;
 }
 .logo {
-  /* padding: 24px 0; */
-
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -83,7 +80,6 @@ body {
 .header-list {
   display: flex;
   margin-left: 76px;
-  /* outline: 1px solid tomato; */
 }
 .header-list .header-item + .header-item {
   margin-left: 40px;
@@ -91,7 +87,8 @@ body {
 
 .header-link {
   display: block;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   font-weight: 500;
   font-size: 16px;
@@ -103,14 +100,11 @@ body {
   color: var(--button-touch-color, #404bbf);
 }
 .header-address {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   margin-left: auto;
 }
 .header-address-list {
   display: flex;
-
-  /* outline: 1px solid tomato; */
 }
 .header-address-list .header-address-item + .header-address-item {
   margin-left: 40px;
@@ -151,6 +145,7 @@ body {
   display: flex;
   align-items: center;
   border-radius: 4px;
+  border: none;
   padding: 13px 32px;
   margin: 0 auto;
 
@@ -226,7 +221,7 @@ body {
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
-  background: var(--background-and-text-footer, #f4f4fd);
+  background: var(--background-and-text-footer);
 }
 .team-title {
   margin-bottom: 72px;
@@ -263,7 +258,7 @@ body {
   letter-spacing: 0.02em;
 }
 .team-title-text {
-  margin: 32px 16px;
+  padding: 32px 0;
 }
 
 /** ===========footer=========== */
@@ -273,13 +268,14 @@ body {
   padding-bottom: 100px;
   background: var(--main-color-text-background, #2e2f42);
 }
-.logo-link {
+.container-div {
+  width: 264px;
 }
 .logo-studio-down {
   color: var(--background-and-text-footer, #f4f4fd);
 }
 .footer-text {
-  width: 264px;
+  /* width: 264px; */
   margin-top: 16px;
   font-size: 16px;
   line-height: 1.5;
@@ -332,7 +328,6 @@ body {
   width: calc((100% - 48px) / 3);
   margin-left: 24px;
   margin-bottom: 48px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .row-item:nth-child(3n + 1) {
   margin-left: 0;
@@ -340,8 +335,15 @@ body {
 .row-item:not(:nth-child(-n + 6)) {
   margin-bottom: 0;
 }
+.row-div {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
 .row-title-down {
-  margin-top: 32px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
